@@ -6,8 +6,8 @@ ahkFilename := "AgentAid.ahk"
 binaryFilename := "AgentAid.exe"
 downloadFilename := "AgentAid_Update.zip"
 GitHubID := "DChesley16"
-repoName := "AgentAid"
-downloadUrl := "/" GitHubID "/" repoName "/releases/latest/download/"
+repoName := "AgentAid-AHK-Tools"
+downloadUrl := "/" GitHubID "/" repoName ""
 update_log := "
 (
 Rewrite updater.ahk with C, that will reduce the compiled binary by half.
